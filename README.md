@@ -1,8 +1,12 @@
+亿连方控介绍：
+http://www.carbit.com.cn/
+http://z.jd.com/project/details/45183.html
+
 一、蓝牙安装以及配对
 1、更新下软件包
 sudo apt-get update
 2、安装蓝牙程序
-sudo apt-get install bluez bluez-firmware bluez-hcidump
+sudo apt-get install mpc bluez bluez-firmware bluez-hcidump
 3、重启系统
 sudo reboot
 4、配对蓝牙设备
