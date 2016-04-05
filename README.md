@@ -1,5 +1,4 @@
-蓝牙安装以及配对教程
-
+一、蓝牙安装以及配对
 1、更新下软件包
 sudo apt-get update
 2、安装蓝牙程序
@@ -26,4 +25,14 @@ trust XX:XX:XX:XX:XX:XX
 connect XX:XX:XX:XX:XX:XX
 退出就可以了
 quit
-这样以后蓝牙就会在开机后自动连接了
+这样以后蓝牙就会在开机后自动连接
+
+二、播放控制程序使用教程
+执行
+sudo ./ylfk XX:XX:XX:XX:XX:XX（把XX替换为你方控的蓝牙地址）
+即可
+若想开机自动运行则需
+sudo nano /etc/rc.local
+在exit 0;之前添加
+/home/pi/ylfk XX:XX:XX:XX:XX:XX &
+请根据实际情况修改yflk程序的地址以及蓝牙设备地址
