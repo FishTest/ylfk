@@ -28,11 +28,13 @@ quit
 这样以后蓝牙就会在开机后自动连接
 
 二、播放控制程序使用教程
+git clone https://github.com/fishtest/ylfk --depth=1
+cd ylfk
 执行
 sudo ./ylfk XX:XX:XX:XX:XX:XX（把XX替换为你方控的蓝牙地址）
 即可
 若想开机自动运行则需
 sudo nano /etc/rc.local
 在exit 0;之前添加
-/home/pi/ylfk XX:XX:XX:XX:XX:XX &
+/home/pi/ylfk/ylfk XX:XX:XX:XX:XX:XX &
 请根据实际情况修改yflk程序的地址以及蓝牙设备地址
