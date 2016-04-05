@@ -1,6 +1,15 @@
+亿连方控控制器 For 树莓派(raspberry pi) 和 MPD(Music Player Daemon https://www.musicpd.org/)
+
 亿连方控介绍：
 http://www.carbit.com.cn/
 http://z.jd.com/project/details/45183.html
+
+方控使用说明
+中间O键：在播放歌曲和暂停之间切换
+绿键：下一首
+红键：上一首
+黄键：音量+5
+蓝键：音量-5
 
 一、蓝牙安装以及配对
 1、更新下软件包
