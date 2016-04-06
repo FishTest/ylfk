@@ -5,11 +5,20 @@ http://www.carbit.com.cn/
 http://z.jd.com/project/details/45183.html
 
 方控使用说明
+
+1、短按
 中间O键：在播放歌曲和暂停之间切换
 绿键：下一首
 红键：上一首
 黄键：音量+5
 蓝键：音量-5
+
+2、长按
+中间O键：关机
+绿键：切换single
+红键：切换repeat
+黄键：更新曲库到播放列表
+蓝键：切换random
 
 一、蓝牙安装以及配对
 1、更新下软件包
